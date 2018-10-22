@@ -1,6 +1,6 @@
-# Listen to Wikipedia
+# Listen to Wikipedia (White Noise)
 
-Real-time visualization and sonification of Wikipedia activity.
+Real-time visualization and sonification of Wikipedia activity, in the form of storm sounds.
 
 ## About
 
