@@ -10,4 +10,4 @@ Listen to Wikipedia is inspired by Maximillian Laumeister's [BitListen](http://w
 
 ## Usage
 
-Unlike upstream, this isn't hosted on any actual site. However, don't despair! Simply open ```index.html``` in any browser and enjoy!
+Unlike upstream, this isn't hosted on any actual site. However, don't despair! Simply download and open ```index.html``` in any browser and enjoy!
