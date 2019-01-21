@@ -225,20 +225,20 @@
         }
 
         // load celesta and clav sounds
-        for (var i = 1; i <= 24; i++) {
+        for (var i = 1; i <= 1; i++) {
             if (i > 9) {
                 fn = 'c0' + i;
             } else {
                 fn = 'c00' + i;
             }
             celesta.push(new Howl({
-                urls : ['sounds/celesta/' + fn + '.ogg',
+                urls : [// 'sounds/celesta/' + fn + '.ogg',
                         'sounds/celesta/' + fn + '.mp3'],
                 volume : 0.2,
                 onload : sound_load(),
             }))
             clav.push(new Howl({
-                urls : ['sounds/clav/' + fn + '.ogg',
+                urls : [// 'sounds/clav/' + fn + '.ogg',
                         'sounds/clav/' + fn + '.mp3'],
                 volume : 0.2,
                 onload : sound_load(),
@@ -246,9 +246,9 @@
         }
 
         // load swell sounds
-        for (var i = 1; i <= 3; i++) {
+        for (var i = 1; i <= 1; i++) {
             swells.push(new Howl({
-                urls : ['sounds/swells/swell' + i + '.ogg',
+                urls : [// 'sounds/swells/swell' + i + '.ogg',
                         'sounds/swells/swell' + i + '.mp3'],
                 volume : 1,
                 onload : sound_load(),

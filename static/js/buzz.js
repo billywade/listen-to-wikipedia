@@ -38,7 +38,7 @@ var buzz = {
     },
     types: {
         'mp3': 'audio/mpeg',
-        'ogg': 'audio/ogg',
+	// 'ogg': 'audio/ogg',
         'wav': 'audio/wav',
         'aac': 'audio/aac',
         'm4a': 'audio/x-m4a'
