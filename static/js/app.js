@@ -261,11 +261,11 @@ function play_sound(size, type, volume) {
     var max_pitch = 100.0;
     var log_used = 1.0715307808111486871978099;
     var pitch = 100 - Math.min(max_pitch, Math.log(size + log_used) / Math.log(log_used));
-    var index = Math.floor(pitch / 100.0 * Object.keys(celesta).length);
+    var index = 1;
     var fuzz = Math.floor(Math.random() * 4) - 2;
-    index += fuzz;
-    index = Math.min(Object.keys(celesta).length - 1, index);
-    index = Math.max(1, index);
+    //index += fuzz;
+    //index = Math.min(Object.keys(celesta).length - 1, index);
+    //index = Math.max(1, index);
     if (current_notes < note_overlap) {
         current_notes++;
         if (type == 'add') {
@@ -280,7 +280,7 @@ function play_sound(size, type, volume) {
 }
 
 function play_random_swell() {
-    var index = Math.round(Math.random() * (swells.length - 1));
+    var index = 1;
     swells[index].play();
 }
 
