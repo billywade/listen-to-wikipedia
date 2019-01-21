@@ -1,7 +1,7 @@
 <html>
 <head>
-    <title>Hatnote Listen to Wikipedia</title>
-    <meta name="title" content="Hatnote Listen to Wikipedia">
+    <title>Listen to Wikipedia - White Noise</title>
+    <meta name="title" content="Listen to Wikipedia - White Noise">
     <meta name="description" content="Listen to recent changes on Wikipedia">
     <meta name="keywords" content="hatnote, listen, recent changes, sound, music, wikipedia, edits, visualization">
     <meta name="author" content="Stephen LaPorte and Mahmoud Hashemi">
@@ -69,14 +69,14 @@
     /* Colors
        ====== */
 
-    var body_background_color = '#f8f8f8',
-        body_text_color = '#000',
-        svg_background_color = '#1c2733',
-        svg_text_color = '#fff',
-        newuser_box_color = 'rgb(41, 128, 185)',
-        bot_color = 'rgb(155, 89, 182)',
-        anon_color = 'rgb(46, 204, 113)',
-        edit_color = '#fff',
+    var body_background_color = '#0000000',
+        body_text_color = '#111111',
+        svg_background_color = '#000000',
+        svg_text_color = '#111111',
+        newuser_box_color = 'rgb(41, 41, 41)',
+        bot_color = 'rgb(20, 20, 20)',
+        anon_color = 'rgb(46, 46, 46)',
+        edit_color = '#111111',
         sound_totals = 51,
         total_edits = 0;
 
@@ -298,7 +298,7 @@
         width: '80%',
         'delimiter': [' ', ','],
         defaultText: 'Add a tag',
-        defaultTextWidth: 100,
+          defaultTextWidth: 100,
         unique: false,
         onChange: function() {
           TAG_FILTERS = [];
