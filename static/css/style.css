@@ -189,7 +189,7 @@ label {
 #volumeSlider {
   width: 70px;
   display: inline-block;
-  background-color: #000;
+  background-color: #222;
 }
 
 #volumeSlider div {
